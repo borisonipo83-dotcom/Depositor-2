@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BORIS DYNASTI</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080810;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 25px;
+    border-bottom: 1px solid #792cff;
+}
+
+h1 {
+    color: #a855ff;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px #a855ff;
+}
+
+main {
+    padding: 100px 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    background: #792cff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 0 20px #792cff;
+}
+  
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #a855ff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin: 35px 15px;
+    padding: 35px 20px;
+    background: #11111f;
+    border: 1px solid #792cff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #792cff44;
+    animation: apparition 1.2s ease;
+}
+
+section h2 {
+    color: #b56aff;
+    text-shadow: 0 0 12px #792cff;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px #a855ff;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    background: #11111f;
+    border-top: 1px solid #792cff;
+    padding: 35px 15px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    color: #a855ff;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 14px;
+}
+.projet {
+    background: #1b1530;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    border: 1px solid #792cff;
+}
+
+.projet h3 {
+    color: #b56aff;
+    margin-bottom: 10px;
+}
+  
+.projet {
+    transition: 0.4s ease;
+    transform-style: preserve-3d;
+}
+
+.projet:hover {
+    transform: perspective(800px) rotateY(5deg) scale(1.03);
+    box-shadow: 0 0 25px #792cff;
+    border-color: #c084fc;
+}
+
+.projet h3 {
+    text-shadow: 0 0 12px #a855ff;
+}
+
+section {
+    transition: 0.4s ease;
+}
+.profil {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a855ff;
+    box-shadow: 0 0 25px #792cff;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  
+<header>
+    <h1>BORIS DYNASTI</h1>
+
+    <nav>
+        
+footer {
+    background: #11111f;
+    border-top: 1px solid #792cff;
+    padding: 35px 15px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    color: #a855ff;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 14px;
+}
+      
+footer {
+    background: #11111f;
+    border-top: 1px solid #792cff;
+    padding: 35px 15px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    color: #a855ff;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<h1></h1>
+  <img src="profil.png" alt="Logo Boris Dynasti" class="profil">
+</header>
+
+<main>
+
+<main>
+
+<section id="accueil">
+    <h2>Ton univers numérique</h2>
+    <p>Innovation • Technologie • Créativité</p>
+    <button onclick="document.getElementById('apropos').scrollIntoView({behavior:'smooth'})">
+    Découvrir
+</button>
+</section>
+
+<section id="apropos">
+    <h2>À propos</h2>
+    <p>Bienvenue sur mon site officiel Boris Dynasti.</p>
+</section>
+
+<section id="contact">
+    
+<section id="projets">
+    <h2>Mes projets</h2>
+
+    <div class="projet">
+        <h3>Projet 01</h3>
+        <p>Développement Web</p>
+    </div>
+
+    <div class="projet">
+        <h3>Projet 02</h3>
+        <p>Technologie et Innovation</p>
+    </div>
+
+    <div class="projet">
+        <h3>Projet 03</h3>
+        <p>Créations numériques</p>
+    </div>
+</section>
+
+    <h2>Contact</h2>
+    <p>Retrouve-moi bientôt sur mes réseaux.</p>
+</section>
+
+</main>
+
+</main>
+
+<footer>
+    <h3>BORIS DYNASTI</h3>
+    <p>Créer • Innover • Inspirer</p>
+    <p>© 2026 Boris Dynasti</p>
+    <p>Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
